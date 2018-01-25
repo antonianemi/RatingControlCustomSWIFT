@@ -12,6 +12,7 @@
 		FA47171E2016760B00C4D26A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA47171C2016760B00C4D26A /* Main.storyboard */; };
 		FA4717202016760B00C4D26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA47171F2016760B00C4D26A /* Assets.xcassets */; };
 		FA4717232016760B00C4D26A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4717212016760B00C4D26A /* LaunchScreen.storyboard */; };
+		FA47172B201676E100C4D26A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47172A201676E100C4D26A /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA47171F2016760B00C4D26A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4717222016760B00C4D26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA4717242016760B00C4D26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA47172A201676E100C4D26A /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FA4717182016760B00C4D26A /* AppDelegate.swift */,
 				FA47171A2016760B00C4D26A /* ViewController.swift */,
+				FA47172A201676E100C4D26A /* RatingControl.swift */,
 				FA47171C2016760B00C4D26A /* Main.storyboard */,
 				FA47171F2016760B00C4D26A /* Assets.xcassets */,
 				FA4717212016760B00C4D26A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA47172B201676E100C4D26A /* RatingControl.swift in Sources */,
 				FA47171B2016760B00C4D26A /* ViewController.swift in Sources */,
 				FA4717192016760B00C4D26A /* AppDelegate.swift in Sources */,
 			);
